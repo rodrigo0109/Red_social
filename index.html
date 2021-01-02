@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Coffegram</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/styles.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="container"> </div>
+
+    <header class="Header" id="top">
+      <div class="Nav_container">
+        <nav class="Header__nav">
+          <div class="Nav__title">Coffegram</div>
+          <div class="Nav__ul">
+            <ul class="Ul__icons">
+          <!--     <li>
+                <a href="#">
+                  <i class="fas fa-paper-plane"></i>
+                </a>
+              </li> -->
+             <!--  <li>
+                <a href="#">
+                  <i class="far fa-paper-plane"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="far fa-heart"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="far fa-paper-plane"></i>
+                </a>
+              </li> -->
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <div class="stories__wrapper" id="stories__wrapper">
+        <div class="stories__container" id="stories__container">
+          <button class="story">
+            <div class="profile">
+              <img src="img/profile0.jpeg" alt="" />
+            </div>
+            <div class="title">lucho_forlan</div>
+          </button>
+          <button class="story">
+            <div class="profile">
+              <img src="img/profile1.jpeg" alt="" />
+            </div>
+            <div class="title">nik.klop</div>
+          </button>
+          <button class="story">
+            <div class="profile">
+              <img src="img/profile2.jpeg" alt="" />
+            </div>
+            <div class="title">juli.garciaa</div>
+          </button>
+          <button class="story">
+            <div class="profile">
+              <img src="img/profile3.jpeg" alt="" />
+            </div>
+            <div class="title">ire_sanchez_94</div>
+          </button>
+          <button class="story">
+            <div class="profile">
+              <img src="img/profile4.jpeg" alt="" />
+            </div>
+            <div class="title">marianaruiz</div>
+          </button>
+          <button class="story">
+            <div class="profile">
+              <img src="img/profile5.jpeg" alt="" />
+            </div>
+            <div class="title">esteban_hotton</div>
+          </button>
+          <button class="story">
+            <div class="profile">
+              <img src="img/profile6.jpeg" alt="" />
+            </div>
+            <div class="title">charo.martinez</div>
+          </button>
+          <button class="story">
+            <div class="profile">
+              <img src="img/profile7.jpeg" alt="" />
+            </div>
+            <div class="title">Esteban Ruiz</div>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="posts">
+        <button class="btn_post" id="btn-posts">Nuevas publicaciones</button>
+      </div>
+      <div class="popup" id="popup">
+        <div class="popup-text">
+          ¿Seguro que quieres dejar de seguir a este usuario?
+        </div>
+        <div class="popup-unfollow">
+          <a href="#" id="btnsi">Dejar de seguir</a>
+        </div>
+        <div class="popup-cancel">
+          <a href="#" id="btnno">Cancelar</a>
+        </div>
+      </div>
+      <div class="section__right" id="section-right">
+        <div class="header__card-aside" id="1">
+          <img src="img/profilecontact.jpg" alt="" />
+          <div class="aside-text">
+            <h3>rodriperez_93</h3>
+            <p>Desarrollador Front-end</p>
+          </div>
+          <a href="https://www.instagram.com/rodriperez_93/" target="_blank" class="contact">Contactar</a>
+        </div>
+        <div class="aside__sugest" id="2">
+          <h3 id="sugest">Sugerencias para ti</h3>
+        </div>
+        <div class="header__card-follow">
+          <img src="img/profile2.jpeg" alt="" />
+          <div class="aside-follow">
+            <h3>andres_pozo</h3>
+            <p>Nuevo en Coffegram</p>
+          </div>
+          <button class="aside__button" id="follow1">Seguir</button>
+        </div>
+        <div class="header__card-follow">
+          <img src="img/profile7.jpeg" alt="" />
+          <div class="aside-follow">
+            <h3>lucila.97</h3>
+            <p>Nuevo en Coffegram</p>
+          </div>
+          <button class="aside__button" id="follow2">Seguir</button>
+        </div>
+        <div class="header__card-follow">
+          <img src="img/profile6.jpeg" alt="" />
+          <div class="aside-follow">
+            <h3>panaderia.elrey</h3>
+            <p>Nuevo en Coffegram</p>
+          </div>
+          <button class="aside__button" id="follow3">Seguir</button>
+        </div>
+        <div class="header__card-follow">
+          <img src="img/profile3.jpeg" alt="" />
+          <div class="aside-follow">
+            <h3>camila.f95</h3>
+            <p>Nuevo en Coffegram</p>
+          </div>
+          <button class="aside__button" id="follow4">Seguir</button>
+        </div>
+        <div class="header__card-follow">
+          <img src="img/card8.jpeg" alt="" />
+          <div class="aside-follow">
+            <h3>javier.salomon</h3>
+            <p>Nuevo en Coffegram</p>
+          </div>
+          <button class="aside__button" id="follow5">Seguir</button>
+        </div>
+      </div>
+      <section class="cardnew">
+        <div class="message">
+          <a href="#" class="close"><i class="fas fa-times"></i></a>
+        </div>
+        <div class="header__card">
+          <div class="profile">
+            <img src="img/profile0.jpeg" alt="" />
+          </div>
+          <h3>lucho_forlan</h3>
+        </div>
+        <div class="image__card">
+          <img src="img/card5.jpeg" alt="" />
+        </div>
+        <div class="buttons__card">
+          <ul class="list__buttons">
+            <div class="buttons-1">
+              <li class="like"><i class="fas fa-heart"></i></li>
+              <li><i class="far fa-comment"></i></li>
+              <li><i class="far fa-paper-plane"></i></li>
+            </div>
+            <div class="buttons-2">
+              <li><i class="far fa-bookmark-o"></i></li>
+            </div>
+          </ul>
+        </div>
+        <div class="likes" id="cant-likes"></div>
+        <div class="coments" id="coment_container"></div>
+        <a href="#message" class="btn__ver" id="btn-ver">Ver comentarios</a>
+        <p class="date"></p>
+        <div class="card-input">
+          <form action="submit" class="form" id="form1">
+            <input
+              type="text"
+              placeholder="Comentar..."
+              id="input"
+              name="coment"
+              required
+            />
+            <input class="a" type="submit" value="Publicar" />
+          </form>
+        </div>
+      </section>
+      <section class="cardnew">
+        <div class="message">
+          <a href="#" class="close"><i class="fas fa-times"></i></a>
+        </div>
+        <div class="header__card">
+          <div class="profile">
+            <img src="img/profile1.jpeg" alt="" />
+          </div>
+          <h3>nik.klop</h3>
+        </div>
+        <div class="image__card">
+          <img src="img/card6.jpeg" alt="" />
+        </div>
+        <div class="buttons__card">
+          <ul class="list__buttons">
+            <div class="buttons-1">
+              <li class="like"><i class="fas fa-heart"></i></li>
+              <li><i class="far fa-comment"></i></li>
+              <li><i class="far fa-paper-plane"></i></li>
+            </div>
+            <div class="buttons-2">
+              <li><i class="far fa-bookmark-o"></i></li>
+            </div>
+          </ul>
+        </div>
+        <div class="likes" id="cant-likes"></div>
+        <div class="coments" id="coment_container-2"></div>
+        <a href="#message" class="btn__ver" id="btn-ver2">Ver comentarios</a>
+        <p class="date"></p>
+        <div class="card-input">
+          <form action="submit" class="form" id="form2">
+            <input
+              type="text"
+              placeholder="Comentar..."
+              id="input"
+              name="coment"
+              required
+            />
+            <input class="a" type="submit" value="Publicar" />
+          </form>
+        </div>
+      </section>
+      <section class="cardnew">
+        <div class="message">
+          <a href="#" class="close"><i class="fas fa-times"></i></a>
+        </div>
+        <div class="header__card">
+          <div class="profile">
+            <img src="img/profile2.jpeg" alt="" />
+          </div>
+          <h3>juli.garciaa</h3>
+        </div>
+        <div class="image__card">
+          <img src="img/card7.jpeg" alt="" />
+        </div>
+        <div class="buttons__card">
+          <ul class="list__buttons">
+            <div class="buttons-1">
+              <li class="like"><i class="fas fa-heart"></i></li>
+              <li><i class="far fa-comment"></i></li>
+              <li><i class="far fa-paper-plane"></i></li>
+            </div>
+            <div class="buttons-2">
+              <li><i class="far fa-bookmark-o"></i></li>
+            </div>
+          </ul>
+        </div>
+        <div class="likes" id="cant-likes"></div>
+        <div class="coments" id="coment_container-3"></div>
+        <a href="#message" class="btn__ver" id="btn-ver3">Ver comentarios</a>
+        <p class="date"></p>
+        <div class="card-input">
+          <form action="submit" class="form" id="form3">
+            <input
+              type="text"
+              placeholder="Comentar..."
+              id="input"
+              name="coment"
+              required
+            />
+            <input class="a" type="submit" value="Publicar" />
+          </form>
+        </div>
+      </section>
+      <section class="cardnew">
+        <div class="message">
+          <a href="#" class="close"><i class="fas fa-times"></i></a>
+        </div>
+        <div class="header__card">
+          <div class="profile">
+            <img src="img/profile3.jpeg" alt="" />
+          </div>
+          <h3>ire_sanchez_94</h3>
+        </div>
+        <div class="image__card">
+          <img src="img/card8.jpeg" alt="" />
+        </div>
+        <div class="buttons__card">
+          <ul class="list__buttons">
+            <div class="buttons-1">
+              <li class="like"><i class="fas fa-heart"></i></li>
+              <li><i class="far fa-comment"></i></li>
+              <li><i class="far fa-paper-plane"></i></li>
+            </div>
+            <div class="buttons-2">
+              <li><i class="far fa-bookmark-o"></i></li>
+            </div>
+          </ul>
+        </div>
+        <div class="likes" id="cant-likes"></div>
+        <div class="coments" id="coment_container-4"></div>
+        <a href="#message" class="btn__ver" id="btn-ver4">Ver comentarios</a>
+        <p class="date"></p>
+        <div class="card-input">
+          <form action="submit" class="form" id="form4">
+            <input
+              type="text"
+              placeholder="Comentar..."
+              id="input"
+              name="coment"
+              required
+            />
+            <input class="a" type="submit" value="Publicar" />
+          </form>
+        </div>
+      </section>
+      <section class="card">
+        <div class="message">
+          <a href="#" class="close"><i class="fas fa-times"></i></a>
+        </div>
+        <div class="header__card">
+          <div class="profile">
+            <img src="img/profile4.jpeg" alt="" />
+          </div>
+          <h3>marianaruiz</h3>
+        </div>
+        <div class="image__card">
+          <img src="img/card0.jpeg" alt="" />
+        </div>
+        <div class="buttons__card">
+          <ul class="list__buttons">
+            <div class="buttons-1">
+              <li class="like"><i class="fas fa-heart"></i></li>
+              <li><i class="far fa-comment"></i></li>
+              <li><i class="far fa-paper-plane"></i></li>
+            </div>
+            <div class="buttons-2">
+              <li><i class="far fa-bookmark-o"></i></li>
+            </div>
+          </ul>
+        </div>
+        <div class="likes" id="cant-likes"></div>
+        <div class="coments" id="coment_container-5"></div>
+        <a href="#message" class="btn__ver" id="btn-ver5">Ver comentarios</a>
+        <p class="date"></p>
+        <div class="card-input">
+          <form action="submit" class="form" id="form5">
+            <input
+              type="text"
+              placeholder="Comentar..."
+              id="input"
+              name="coment"
+              required
+            />
+            <input class="a" type="submit" value="Publicar" />
+          </form>
+        </div>
+      </section>
+      <section class="card">
+        <div class="message">
+          <a href="#" class="close"><i class="fas fa-times"></i></a>
+        </div>
+        <div class="header__card">
+          <img src="img/profile5.jpeg" alt="" />
+          <h3>esteban_hotton</h3>
+        </div>
+        <div class="image__card">
+          <img src="img/card2.jpeg" alt="" />
+        </div>
+        <div class="buttons__card">
+          <ul class="list__buttons">
+            <div class="buttons-1">
+              <li class="like"><i class="fas fa-heart"></i></li>
+              <li><i class="far fa-comment"></i></li>
+              <li><i class="far fa-paper-plane"></i></li>
+            </div>
+            <div class="buttons-2">
+              <li><i class="far fa-bookmark-o"></i></li>
+            </div>
+          </ul>
+        </div>
+        <div class="likes" id="cant-likes"></div>
+        <div class="coments" id="coment_container-6"></div>
+        <a href="#message2" class="btn__ver" id="btn-ver6">Ver comentarios</a>
+        <p class="date"></p>
+        <div class="card-input">
+          <form action="submit" class="form" id="form6">
+            <input
+              type="text"
+              placeholder="Comentar..."
+              id="input"
+              name="coment"
+              required
+            />
+            <input class="a" type="submit" value="Publicar" />
+          </form>
+        </div>
+      </section>
+      <section class="card">
+        <div class="message">
+          <a href="#" class="close"><i class="fas fa-times"></i></a>
+        </div>
+        <div class="header__card">
+          <img src="img/profile6.jpeg" alt="" />
+          <h3 class="oficial">
+            charo.martinez <i class="fas fa-check-circle"></i>
+          </h3>
+        </div>
+        <div class="image__card">
+          <img src="img/card3.jpeg" alt="" />
+        </div>
+        <div class="buttons__card">
+          <ul class="list__buttons">
+            <div class="buttons-1">
+              <li class="like"><i class="fas fa-heart"></i></li>
+              <li><i class="far fa-comment"></i></li>
+              <li><i class="far fa-paper-plane"></i></li>
+            </div>
+            <div class="buttons-2">
+              <li><i class="far fa-bookmark-o"></i></li>
+            </div>
+          </ul>
+        </div>
+        <div class="likes" id="cant-likes"></div>
+        <div class="coments" id="coment_container-7"></div>
+        <a href="#" class="btn__ver" id="btn-ver7">Ver comentarios</a>
+        <p class="date"></p>
+        <div class="card-input">
+          <form action="submit" class="form" id="form7">
+            <input
+              type="text"
+              placeholder="Comentar..."
+              id="input"
+              name="coment"
+              required
+            />
+            <input class="a" type="submit" value="Publicar" />
+          </form>
+        </div>
+      </section>
+      <section class="card">
+        <div class="message">
+          <a href="#" class="close"><i class="fas fa-times"></i></a>
+        </div>
+        <div class="header__card">
+          <img src="img/profile8.jpeg" alt="" />
+          <h3>marcos_95</h3>
+        </div>
+        <div class="image__card">
+          <img src="img/card4.jpeg" alt="" />
+        </div>
+        <div class="buttons__card">
+          <ul class="list__buttons">
+            <div class="buttons-1">
+              <li class="like"><i class="fas fa-heart"></i></li>
+              <li><i class="far fa-comment"></i></li>
+              <li><i class="far fa-paper-plane"></i></li>
+            </div>
+            <div class="buttons-2">
+              <li><i class="far fa-bookmark-o"></i></li>
+            </div>
+          </ul>
+        </div>
+        <div class="likes" id="cant-likes"></div>
+        <div class="coments" id="coment_container-8"></div>
+        <a href="#" class="btn__ver" id="btn-ver8">Ver comentarios</a>
+        <p class="date"></p>
+        <div class="card-input">
+          <form action="submit" class="form" id="form8">
+            <input
+              type="text"
+              placeholder="Comentar..."
+              id="input"
+              name="coment"
+              required
+            />
+            <input class="a" type="submit" value="Publicar" />
+          </form>
+        </div>
+      </section>
+      <div class="atday">
+        <p class="atday_logo"><i class="fas fa-calendar-check"></i></p>
+        <p>Estás al dia</p>
+      </div>
+    </main>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
