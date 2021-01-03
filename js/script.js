@@ -149,7 +149,7 @@ let likes = document.querySelectorAll('.likes')
 let btnLike = document.querySelectorAll('.like')
 let touchLike = document.querySelectorAll(".image__card");
 
-touchLike.forEach((t,index) => {
+/* touchLike.forEach((t,index) => {
     t.addEventListener('touchstart',e => {
         e.stopPropagation()
          let value = likes[index].innerText;
@@ -162,7 +162,7 @@ touchLike.forEach((t,index) => {
         btnLike[index].style.color = "red";
     })
   
-})
+}) */
 
 likes.forEach((l,index)=>{
     let num = Math.round(Math.random() * 10 + Math.random() * 1000)
