@@ -1023,6 +1023,10 @@ body {
         width: 100%;
         margin-left: 0;
     }
+    .card.dark{
+    width: 100%;
+    margin-left: 0;
+}
 
     .stories__wrapper{
         margin-left: 10px;
