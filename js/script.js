@@ -315,6 +315,7 @@ theme.addEventListener("click", (e) => {
   if (main.classList.contains("dark")) {
     body.style.background = "#000";
   }
+  else{body.style.background = "#fff"}
   secRigth.classList.toggle("dark");
   titleCont.classList.toggle('dark')
   btnPost.classList.toggle('dark')
